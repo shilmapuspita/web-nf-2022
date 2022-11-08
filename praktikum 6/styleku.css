@@ -1,0 +1,57 @@
+body {
+  background-color: beige;
+}
+h1 {
+  color: rgb(30, 62, 140);
+  text-align: center;
+}
+#header {
+  background-color: rgb(217, 153, 65);
+}
+.head {
+  background-color: rgb(237, 255, 129);
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.a {
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(237, 255, 129);
+  width: 15%;
+  margin:auto;
+}
+.gambar {
+    width: 25%;
+    display: inline; 
+    margin-left: 25%;
+    margin-right: 15%;
+}
+
+.Bbesar {
+  color: rgb(217, 153, 65);
+  font-size: 50px;
+  display: inline;
+}
+
+.koleksi {
+  background-color: beige;
+  margin: 0 auto;
+  width: 61%;
+  
+}
+.koleksi img {
+  width: 200px;
+  display: inline;
+}
+.promo {
+  margin: 0 auto;
+  width: 50%;
+  border: 1px
+}
+.promo, .h2, .h3{
+  text-align: center;
+  color: red;
+  background-color: rgb(237, 255, 129);
+  border: 1px solid black;
+}
