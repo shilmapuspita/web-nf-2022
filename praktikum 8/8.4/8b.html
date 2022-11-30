@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 8b</title>
+    <style>
+        body {
+            box-sizing: border-box;  
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            background-color: pink;
+            padding: 20px;
+        }
+
+        .flex-container>div {
+            color: white;
+            margin: 10px;
+            text-align: start;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            height: 500px;
+        }
+
+        .content div {
+            margin: 10px;
+        }
+
+        .header {
+            background-color: rgb(161, 205, 234); 
+            line-height: 50px; 
+            padding: 10px;
+        }
+
+        .aside {
+            flex: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(167, 249, 174);
+        }
+
+        .article {
+            flex: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            text-align: center;
+            background-color: rgb(92, 241, 159);
+        }
+
+        .gambar {
+            display: flex;
+            margin: 40px 0 40px;
+            justify-content: space-around;
+        }
+
+        .footer {
+            background-color: rgb(91, 180, 239); 
+            line-height: 50px; 
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="header">Header</div>
+        <div class="content">
+            <div class="aside">Aside</div>
+            <div class="article">Article
+                <div class="gambar">
+                    <img src="pohon1.jpg" width="33%"></img>
+                    <img src="pohon2.jpg" width="30%"></img>
+                    <img src="pohon3.png" width="30%"></img>
+                </div>
+            </div>
+        </div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>

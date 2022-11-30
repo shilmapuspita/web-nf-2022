@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 8a</title>
+    <link rel="stylesheet" href="css/flexbox4.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            margin: 0;
+            color: white;
+            padding: 4px;
+        }
+
+        .container {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            display: flex;
+            flex-grow: 1;
+        }
+
+        article, aside {
+            min-width: 20vw;
+        }
+
+        footer, header {
+            height :100px;
+        }
+
+        nav {
+            background-color: rgb(247, 195, 203);
+            min-width: 20vw;
+            text-align: center;
+
+        }
+
+        header {
+            background-color: rgb(247, 145, 162);
+            text-align: center;
+        }
+
+        article {
+            background-color: rgb(253, 124, 145);
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        aside {
+            background-color: rgb(242, 80, 107);
+            text-align: center;
+        }
+
+        footer {
+            background-color: rgb(247, 46, 80);
+            text-align: center;
+        }
+
+        nav, header, article, aside, footer {
+            margin: none;
+            padding: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>Nav</nav>
+    <div class="container">
+        <header>Header</header>
+        <main>
+            <article>Article</article>
+            <aside>Aside</aside>
+        </main>
+    <footer>Footer</footer>
+    </div>
+</body>
+
+</html>
