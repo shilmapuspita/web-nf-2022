@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumlah Dua Bilangan</title>
+</head>
+<body>
+
+    <input id="num1" type="number" onchange="myFunction()" /> <br>
+
+    + <br>
+
+    <input id="num2" type="number" onchange="myFunction()" /> <br>
+
+    = <br>
+
+    <input id="hasil" type="number" onchange="myFunction()" /> 
+
+    
+
+<script>
+    function myFunction() {
+
+    var num1 = document.getElementById("num1").value;
+    var num2 = document.getElementById("num2").value;
+
+    var hasil = parseInt(num1) + parseInt (num2);
+
+    document.getElementById("hasil").value = String (hasil);
+    }
+</script>
+</body>
+</html>
